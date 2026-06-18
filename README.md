@@ -49,7 +49,7 @@ GeoSpatialAnalysis/
 
 **Question:** How do purple martins travel between North and South America? Do they pass through conservation areas?
 
-**Status:** Coming Soon 🚧
+**Status:** Completed ✅
 
 ---
 
@@ -80,7 +80,7 @@ GeoSpatialAnalysis/
 ## 📈 Progress
 
 * [x] Philippines Non-Profit Expansion
-* [ ] Purple Martin Migration
+* [x] Purple Martin Migration
 * [ ] Japan Earthquake Reinforcement
 * [ ] Starbucks Reserve Expansion
 * [ ] NYC Hospital Coverage
