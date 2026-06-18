@@ -1,98 +1,85 @@
-# 🌍 Geospatial Analysis Portfolio
+# GeoSpatial Analysis Portfolio
 
-This repository contains independent implementations of real-world geospatial problems inspired by Kaggle's Geospatial Analysis course. All analyses were recreated and extended in JupyterLab using Python geospatial libraries.
+A collection of geospatial analysis case studies completed using Python, GeoPandas, Pandas, Matplotlib, and spatial datasets. Each project focuses on solving a real-world business, environmental, or public service problem through geographic data analysis and visualization.
 
-## 🎯 Project Objective
-
-Apply geospatial analysis techniques to solve practical problems involving humanitarian outreach, conservation, disaster preparedness, business expansion, and public health.
-
----
-
-## 🛠️ Technologies Used
+## Tools & Technologies
 
 * Python
+* Pandas
 * GeoPandas
 * Matplotlib
-* Fiona
 * Shapely
-* Folium
-* JupyterLab
-* Git & GitHub
+* Coordinate Reference Systems (CRS)
+* Spatial Analysis & Mapping
 
 ---
 
-## 📂 Repository Structure
+## Case Study 1: Philippines Accessibility Analysis
 
-```
+### Business Question
+
+Where should a global non-profit expand its reach in remote areas of the Philippines?
+
+### Approach
+
+* Analyzed the locations of existing Kiva Field Partners.
+* Visualized partner coverage across the Philippines using geospatial mapping.
+* Identified underserved regions with limited access to microfinance services.
+
+### Key Finding
+
+Mindoro emerged as a promising candidate for expansion due to its relatively large population area and lack of existing Field Partner coverage.
+
+---
+
+## Case Study 2: Purple Martin Migration Analysis
+
+### Research Question
+
+How do Purple Martins, a threatened bird species, travel between North and South America? Are the birds travelling to conservation areas?
+
+### Approach
+
+* Converted GPS coordinates into Point geometries using GeoPandas.
+* Applied CRS (EPSG:4326) for geographic mapping.
+* Created migration routes using LineString geometries.
+* Visualized migration paths across North and South America.
+* Compared bird locations with protected conservation areas.
+
+### Key Finding
+
+Several migration locations overlap with protected regions in South America, highlighting the importance of conservation areas for migratory bird species.
+
+---
+
+## Upcoming Case Studies
+
+### Case Study 3
+
+Which areas of Japan could potentially benefit from extra earthquake reinforcement?
+
+### Case Study 4
+
+Which Starbucks stores in California are strong candidates for the next Starbucks Reserve Roastery location?
+
+### Case Study 5
+
+Does New York City have sufficient hospitals to respond to motor vehicle collisions? Which areas of the city have gaps in coverage?
+
+---
+
+## Repository Structure
+
 GeoSpatialAnalysis/
-├── notebooks/
-├── images/
+
+├── Notebooks/
+
+├── Images/
+
+│ ├── CaseStudy1/
+
+│ └── CaseStudy2/
+
 ├── README.md
+
 └── .gitignore
-```
-
----
-
-## ✅ Case Studies
-
-### 1. Philippines Non-Profit Expansion
-
-**Question:** Where should a global non-profit expand its reach in remote areas of the Philippines?
-
-**Key Finding:** Mindoro emerged as a promising candidate for further investigation due to the absence of loans in the current dataset.
-
-**Status:** Completed ✅
-
----
-
-### 2. Purple Martin Migration
-
-**Question:** How do purple martins travel between North and South America? Do they pass through conservation areas?
-
-**Status:** Completed ✅
-
----
-
-### 3. Japan Earthquake Reinforcement
-
-**Question:** Which areas of Japan could potentially benefit from extra earthquake reinforcement?
-
-**Status:** Coming Soon 🚧
-
----
-
-### 4. Starbucks Reserve Expansion
-
-**Question:** Which Starbucks stores in California are strong candidates for the next Starbucks Reserve Roastery location?
-
-**Status:** Coming Soon 🚧
-
----
-
-### 5. NYC Hospital Coverage
-
-**Question:** Does New York City have sufficient hospital coverage to respond to motor vehicle collisions?
-
-**Status:** Coming Soon 🚧
-
----
-
-## 📈 Progress
-
-* [x] Philippines Non-Profit Expansion
-* [x] Purple Martin Migration
-* [ ] Japan Earthquake Reinforcement
-* [ ] Starbucks Reserve Expansion
-* [ ] NYC Hospital Coverage
-
----
-
-## 🚀 Future Enhancements
-
-* Interactive maps using Folium
-* Additional spatial analysis techniques
-* Improved visualizations and documentation
-* Extended real-world insights beyond the original exercises
-
-```
-```
