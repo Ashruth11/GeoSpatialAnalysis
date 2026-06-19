@@ -1,6 +1,6 @@
 # GeoSpatial Analysis Portfolio
 
-A collection of geospatial analysis case studies completed using Python, GeoPandas, Pandas, Matplotlib, and spatial datasets. Each project focuses on solving a real-world business, environmental, or public service problem through geographic data analysis and visualization.
+This repository contains geospatial analysis projects completed using Python, GeoPandas, Pandas, Matplotlib, and spatial datasets. The focus of these projects is to solve real-world problems using geographic data and visualization techniques.
 
 ## Tools & Technologies
 
@@ -10,7 +10,7 @@ A collection of geospatial analysis case studies completed using Python, GeoPand
 * Matplotlib
 * Shapely
 * Coordinate Reference Systems (CRS)
-* Spatial Analysis & Mapping
+* Spatial Analysis
 
 ---
 
@@ -20,15 +20,16 @@ A collection of geospatial analysis case studies completed using Python, GeoPand
 
 Where should a global non-profit expand its reach in remote areas of the Philippines?
 
-### Approach
+### Techniques Used
 
-* Analyzed the locations of existing Kiva Field Partners.
-* Visualized partner coverage across the Philippines using geospatial mapping.
-* Identified underserved regions with limited access to microfinance services.
+* KML data processing
+* GeoDataFrame creation
+* Point geometry analysis
+* Geographic visualization
 
 ### Key Finding
 
-Mindoro emerged as a promising candidate for expansion due to its relatively large population area and lack of existing Field Partner coverage.
+Mindoro was identified as a potential expansion location due to the absence of existing Field Partner coverage in the dataset.
 
 ---
 
@@ -38,33 +39,17 @@ Mindoro emerged as a promising candidate for expansion due to its relatively lar
 
 How do Purple Martins, a threatened bird species, travel between North and South America? Are the birds travelling to conservation areas?
 
-### Approach
+### Techniques Used
 
-* Converted GPS coordinates into Point geometries using GeoPandas.
-* Applied CRS (EPSG:4326) for geographic mapping.
-* Created migration routes using LineString geometries.
-* Visualized migration paths across North and South America.
-* Compared bird locations with protected conservation areas.
+* GeoDataFrame creation
+* Point and LineString geometries
+* CRS implementation (EPSG:4326)
+* Migration route visualization
+* Protected area analysis
 
 ### Key Finding
 
-Several migration locations overlap with protected regions in South America, highlighting the importance of conservation areas for migratory bird species.
-
----
-
-## Upcoming Case Studies
-
-### Case Study 3
-
-Which areas of Japan could potentially benefit from extra earthquake reinforcement?
-
-### Case Study 4
-
-Which Starbucks stores in California are strong candidates for the next Starbucks Reserve Roastery location?
-
-### Case Study 5
-
-Does New York City have sufficient hospitals to respond to motor vehicle collisions? Which areas of the city have gaps in coverage?
+Several migration locations overlap with protected conservation regions in South America, highlighting the importance of these areas for migratory bird species.
 
 ---
 
@@ -74,11 +59,15 @@ GeoSpatialAnalysis/
 
 ├── Notebooks/
 
+│   ├── 01_Philippines_Accessibility.ipynb
+
+│   └── 02_Purple_Martin_Migration.ipynb
+
 ├── Images/
 
-│ ├── CaseStudy1/
+│   ├── CaseStudy1/
 
-│ └── CaseStudy2/
+│   └── CaseStudy2/
 
 ├── README.md
 
